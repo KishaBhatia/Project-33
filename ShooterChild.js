@@ -1,8 +1,8 @@
 class ShooterChild extends BaseClass {
   constructor(x,y){
     super(x,y,50,50);
-    this.image = loadImage("sprites/shooter.jpg");
-    this.smokeImage = loadImage("sprites/smoke.png");
+    this.image = loadImage("shooter.jpg");
+    this.smokeImage = loadImage("smoke.png");
     this.trajectory =[];
   }
 
